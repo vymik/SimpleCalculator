@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0 auto;
+}
+
+.flag .yellow {
+  width: 500px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.flag .green {
+  width: 500px;
+  height: 100px;
+  background-color: green;
+}
+
+.flag .red {
+  width: 500px;
+  height: 100px;
+  background-color: red;
+}
+
+section {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section div {
+  width: 100%;
+  height: 50px;
+  padding: 0 5%;
+  background-color: lightgray;
+  border: 2px solid lightgray;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+section button {
+  width: 33.3333%;
+  padding: 15px;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+section button:hover {
+  background-color: lightgray;
+}
+/*# sourceMappingURL=main.css.map */
